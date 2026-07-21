@@ -1,0 +1,36 @@
+<svg width="1100" height="350" viewBox="0 0 1100 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="350" rx="28" fill="#07111F"/>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+  <g font-family="Arial, sans-serif" fill="#F4F7FB">
+    <text x="550" y="48" text-anchor="middle" font-size="24" font-weight="700">Evidence-first brand intelligence pipeline</text>
+    <g>
+      <rect x="46" y="105" width="190" height="142" rx="18" fill="#0D1B2A" stroke="#7C3AED" stroke-width="2"/>
+      <text x="141" y="148" text-anchor="middle" font-size="18" font-weight="700">Streamlit</text>
+      <text x="141" y="178" text-anchor="middle" font-size="14" fill="#A9B7C8">Brand + keywords</text>
+      <text x="141" y="202" text-anchor="middle" font-size="14" fill="#A9B7C8">Reports + chat</text>
+    </g>
+    <path d="M244 176h80" stroke="url(#g)" stroke-width="4"/><path d="m313 166 14 10-14 10" fill="#22D3EE"/>
+    <g>
+      <rect x="333" y="82" width="220" height="188" rx="18" fill="#0D1B2A" stroke="#22D3EE" stroke-width="2"/>
+      <text x="443" y="126" text-anchor="middle" font-size="18" font-weight="700">Bright Data</text>
+      <text x="443" y="158" text-anchor="middle" font-size="14" fill="#A9B7C8">Google News SERP</text>
+      <text x="443" y="184" text-anchor="middle" font-size="14" fill="#A9B7C8">Web Unlocker</text>
+      <text x="443" y="220" text-anchor="middle" font-size="13" fill="#67E8F9">Verified source URLs</text>
+    </g>
+    <path d="M561 176h80" stroke="url(#g)" stroke-width="4"/><path d="m630 166 14 10-14 10" fill="#22D3EE"/>
+    <g>
+      <rect x="650" y="82" width="210" height="188" rx="18" fill="#0D1B2A" stroke="#7C3AED" stroke-width="2"/>
+      <text x="755" y="126" text-anchor="middle" font-size="18" font-weight="700">Agno + Nebius</text>
+      <text x="755" y="158" text-anchor="middle" font-size="14" fill="#A9B7C8">Qwen analysis agent</text>
+      <text x="755" y="184" text-anchor="middle" font-size="14" fill="#A9B7C8">Sentiment + insights</text>
+      <text x="755" y="220" text-anchor="middle" font-size="13" fill="#C4B5FD">Structured intelligence</text>
+    </g>
+    <path d="M868 176h52" stroke="url(#g)" stroke-width="4"/><path d="m909 166 14 10-14 10" fill="#22D3EE"/>
+    <g>
+      <rect x="929" y="105" width="125" height="142" rx="18" fill="#0D1B2A" stroke="#22D3EE" stroke-width="2"/>
+      <text x="991" y="148" text-anchor="middle" font-size="18" font-weight="700">Memori</text>
+      <text x="991" y="178" text-anchor="middle" font-size="14" fill="#A9B7C8">SQLite</text>
+      <text x="991" y="202" text-anchor="middle" font-size="14" fill="#A9B7C8">Recall</text>
+    </g>
+  </g>
+</svg>

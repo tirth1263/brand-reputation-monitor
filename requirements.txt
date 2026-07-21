@@ -1,0 +1,11 @@
+streamlit==1.59.2
+agno==2.8.0
+memori==3.3.6
+openai==2.46.0
+httpx==0.28.1
+beautifulsoup4==4.14.3
+pydantic==2.12.5
+python-dotenv==1.2.1
+plotly==6.5.2
+tenacity==9.1.4
+

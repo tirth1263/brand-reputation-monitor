@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Runtime data and secrets
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+.streamlit/secrets.toml
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Deployment / build output
+.next/
+node_modules/
+dist/
+
