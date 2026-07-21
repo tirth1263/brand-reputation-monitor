@@ -27,4 +27,4 @@ Thumbs.db
 .next/
 node_modules/
 dist/
-
+out/

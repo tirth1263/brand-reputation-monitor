@@ -4,7 +4,7 @@
   <p><strong>Evidence-first brand intelligence, powered by live news and agentic AI.</strong></p>
   <p>Turn current coverage into a decision-ready reputation brief with verified sources, sentiment drivers, emerging risks, strategic opportunities, and memory-aware follow-up answers.</p>
 
-  [![Live App](https://img.shields.io/badge/Live_App-Open-7C3AED?style=for-the-badge)](#live-demo)
+  [![Live App](https://img.shields.io/badge/Live_App-Open-7C3AED?style=for-the-badge)](https://tirth1263.github.io/brand-reputation-monitor/)
   [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
   [![Streamlit](https://img.shields.io/badge/Streamlit-1.59-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
   [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
@@ -22,9 +22,11 @@ Brand Reputation Monitor follows an evidence-first pipeline: Bright Data collect
 
 ## Live demo
 
-**Production URL:** _Added automatically after the first public deployment._
+**Public hosted preview:** [https://tirth1263.github.io/brand-reputation-monitor/](https://tirth1263.github.io/brand-reputation-monitor/)
 
-The hosted app includes a clearly labeled fictional preview that works without credentials. For live monitoring, enter your own Nebius and Bright Data keys in the sidebar. Keys are kept in the active application session and are not committed to this repository.
+The hosted GitHub Pages edition is an interactive, clearly labeled fictional preview of the complete product experience. The repository also includes two server-backed live editions: the primary Streamlit implementation (`app.py`) with Agno and Memori, plus a Next.js route that preserves collection provenance and supports BYOK deployment on a Node host. GitHub Pages cannot execute either server runtime, so it intentionally disables live API submission instead of exposing keys or presenting a broken workflow.
+
+For a live deployment, use the one-click Render blueprint below. In the Streamlit edition, keys are kept in the active application session and are not committed to this repository.
 
 ## What it delivers
 
@@ -185,12 +187,15 @@ Zone names are account-specific. If your Bright Data dashboard uses different na
 
 ```text
 brand-reputation-monitor/
+├── app/                       # Next.js public web companion and server route
+├── .github/workflows/         # Automated public Pages deployment
 ├── app.py                    # Streamlit UI and conversational workflow
 ├── workflow.py               # Collection, analysis, provenance, and memory services
 ├── config.json               # Safe application defaults
 ├── requirements.txt          # Runtime dependencies
 ├── requirements-dev.txt      # Test and lint dependencies
 ├── pyproject.toml            # Ruff and pytest configuration
+├── package.json              # Hosted web companion dependencies and scripts
 ├── render.yaml               # One-click Render blueprint
 ├── Dockerfile                # Portable container deployment
 ├── Procfile                  # Generic Python web-process command
@@ -223,6 +228,14 @@ pytest
 The test suite specifically verifies that a model response cannot replace a URL collected by the research layer.
 
 ## Deployment
+
+### Public GitHub Pages preview
+
+The repository automatically publishes the interactive preview on every push to `main`:
+
+**[Open the hosted website →](https://tirth1263.github.io/brand-reputation-monitor/)**
+
+The Pages workflow builds with a base path and static runtime flag. Preview navigation, dashboard interactions, methodology, and source-code links work publicly; live credential submission is disabled because GitHub Pages has no secure server runtime.
 
 ### Render
 
